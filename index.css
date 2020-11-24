@@ -1,0 +1,34 @@
+
+
+.card-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-container > *{
+    flex: 1 21%;
+    margin: 20px;
+}
+.highlight-container{
+    background-image: linear-gradient(black, navy);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.highlight-container > *{
+    margin: 100px;
+}
+
+.carousel-item > *{
+    object-fit: cover;
+}
+
+footer{
+    background-color: #333333;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
